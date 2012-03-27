@@ -1,0 +1,14 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<ui:with field='constants' type='org.vectomatic.svg.edu.client.commons.CommonConstants' />
+	<g:VerticalPanel spacing="10" width="100%">
+	    <g:cell horizontalAlignment='ALIGN_CENTER'>
+			<g:HTML ui:field="about"></g:HTML>
+		</g:cell>
+	    <g:cell horizontalAlignment='ALIGN_RIGHT'>
+		    <g:HorizontalPanel>
+		   		<g:Button ui:field="okButton" text="{constants.ok}"/>
+		    </g:HorizontalPanel>
+		</g:cell>
+	</g:VerticalPanel>
+</ui:UiBinder>
