@@ -59,7 +59,7 @@ public class LicenseBox {
 		faces.put(SVGFaceName.UP, new SVGFace(new SVGStyleChange[] { new SVGStyleChange( new String[] { CommonBundle.INSTANCE.css().navigationUp()} )}));
 		faces.put(SVGFaceName.UP_HOVERING, new SVGFace(new SVGStyleChange[] { new SVGStyleChange( new String[] { CommonBundle.INSTANCE.css().navigationUpHovering()} )}));
 		SVGPushButton aboutButton = new SVGPushButton(CommonBundle.INSTANCE.about().getSvg(), faces);
-		aboutButton.setClassNameBaseVal(CommonBundle.INSTANCE.css().navigationPanelMenuButton());
+		aboutButton.setClassNameBaseVal(CommonBundle.INSTANCE.mediaQueries().navigationPanelMenuButton());
 		final LicenseBox licenseBox = new LicenseBox();
 		aboutButton.addClickHandler(new ClickHandler() {
 			@Override

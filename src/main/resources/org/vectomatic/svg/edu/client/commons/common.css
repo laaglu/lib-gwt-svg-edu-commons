@@ -12,28 +12,3 @@
 	  opacity:1.0;
 	}
 }
-/* CSS positionning rule for the game navigation panel: 
-menu button, previous level button, next level button */
-.nav-panel {
-	position:absolute;
-	left:40%;
-	width:20%;
-	height:12%;
-	bottom:0px;
-	z-index:10;
-}
-/* CSS positionning rule for the menu button */
-.nav-panel-menu-btn {
-	left:0%;
-	width:33%;
-}
-/* CSS positionning rule for the previous level button */
-.nav-panel-prev-btn {
-	left:33%;
-	width:33%;
-}
-/* CSS positionning rule for the next level button */
-.nav-panel-next-btn {
-	left:66%;
-	width:33%;
-}

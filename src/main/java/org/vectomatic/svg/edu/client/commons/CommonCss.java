@@ -29,12 +29,4 @@ public interface CommonCss extends CssResource {
 	public String navigationUp();
 	@ClassName("nav-up-hovering")
 	public String navigationUpHovering();
-	@ClassName("nav-panel")
-	public String navigationPanel();
-	@ClassName("nav-panel-menu-btn")
-	public String navigationPanelMenuButton();
-	@ClassName("nav-panel-prev-btn")
-	public String navigationPanelPrevButton();
-	@ClassName("nav-panel-next-btn")
-	public String navigationPanelNextButton();
 }

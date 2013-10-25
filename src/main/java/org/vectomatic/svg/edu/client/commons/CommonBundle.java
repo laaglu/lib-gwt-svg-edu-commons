@@ -37,4 +37,10 @@ public interface CommonBundle extends ClientBundle {
 	public SVGResource about();
 	@Source("common.css")
 	public CommonCss css();
+	@Source("mediaQueries.css")
+	public MediaQueriesCss mediaQueries();
+	@Source("mediaQueriesLandscape.css")
+	public MediaQueriesCss mediaQueriesLandscape();
+	@Source("mediaQueriesPortrait.css")
+	public MediaQueriesCss mediaQueriesPortrait();
 }

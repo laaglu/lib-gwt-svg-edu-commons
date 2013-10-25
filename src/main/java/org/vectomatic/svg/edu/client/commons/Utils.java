@@ -18,6 +18,8 @@
 package org.vectomatic.svg.edu.client.commons;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.dom.client.StyleInjector;
+import com.google.gwt.resources.client.CssResource;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.DialogBox;
@@ -49,6 +51,15 @@ public class Utils {
 		text = text.replaceAll(" ", "&nbsp;");
 		dialogBox.setHTML("<pre>" + text + "</pre>");
 		dialogBox.center();
+	}
+	public static void injectMediaQuery(String query, CssResource css) {
+		StringBuilder builder = new StringBuilder();
+		builder.append("@media ");
+		builder.append(query);
+		builder.append(" {");
+		builder.append(css.getText());
+		builder.append("}");
+		StyleInjector.injectAtEnd(builder.toString());
 	}
 
 }

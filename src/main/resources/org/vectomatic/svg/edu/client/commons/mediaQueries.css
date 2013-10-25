@@ -1,0 +1,26 @@
+/* CSS positionning rule for the game area */
+.game {
+  outline:none;
+}
+/* CSS positionning rule for the game navigation panel: 
+menu button, previous level button, next level button */
+.nav-panel {
+	position:absolute;
+	z-index:10;
+}
+
+/* CSS positionning rule for the menu button */
+.nav-panel-menu-btn {
+}
+/* CSS positionning rule for the previous level button */
+.nav-panel-prev-btn {
+}
+/* CSS positionning rule for the next level button */
+.nav-panel-next-btn {
+}
+/* CSS positionning rule for the next difficulty picker */
+.nav-panel-difficulty-picker  {
+}
+.difficulty-picker-selected {
+}
+
