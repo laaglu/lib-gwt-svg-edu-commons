@@ -1,7 +1,6 @@
 package org.vectomatic.svg.edu.client.commons;
 
 import com.google.gwt.resources.client.CssResource;
-import com.google.gwt.resources.client.CssResource.ClassName;
 
 public interface MediaQueriesCss extends CssResource {
 	@ClassName("game")
