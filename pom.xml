@@ -7,7 +7,7 @@
 	</parent>
 	<artifactId>lib-gwt-svg-edu-commons</artifactId>
 	<packaging>jar</packaging>
-	<version>0.3.19-SNAPSHOT</version>
+	<version>0.3.20-SNAPSHOT</version>
 	<name>lib-gwt-svg-edu-commons</name>
 	<description>A library of base classes to assist in the development of SVG educational games</description>
 	<url>http://www.vectomatic.org/lib-gwt-svg-edu</url>
